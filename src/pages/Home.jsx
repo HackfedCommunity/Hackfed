@@ -6,22 +6,23 @@ import Partners from '../components/Partners'
 import PastEvents from '../components/PastEvents'
 import Stats from '../components/Stats'
 import UpcommingEvent from '../components/UpcommingEvent'
+import Contactus from '../component2/Contactus'
 
 function Home() {
     return (
         <>
-            <div className=''>
+            {/* <div className=''>
                 <div className='h-screen'>
                     <Hero />
                 </div>
-                {/* <Landing /> */}
                 <Partners />
                 <UpcommingEvent />
                 <PastEvents />
                 <Stats />
                 <CallToAction />
                 <Faq />
-            </div>
+            </div> */}
+         <Contactus></Contactus>
         </>
     )
 }
