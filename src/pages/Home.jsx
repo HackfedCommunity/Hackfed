@@ -8,22 +8,22 @@ import Stats from '../components/Stats'
 import UpcommingEvent from '../components/UpcommingEvent'
 
 function Home() {
-    return (
-        <>
-            <div className=''>
-                <div className='h-screen'>
-                    <Hero />
-                </div>
-                {/* <Landing /> */}
-                <Partners />
-                <UpcommingEvent />
-                <PastEvents />
-                <Stats />
-                <CallToAction />
-                <Faq />
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className=''>
+        <div className='h-screen'>
+          <Hero />
+        </div>
+        {/* <Landing /> */}
+        <Partners />
+        <UpcommingEvent />
+        <PastEvents />
+        <Stats />
+        <CallToAction />
+        <Faq />
+      </div>
+    </>
+  )
 }
 
 export default Home
